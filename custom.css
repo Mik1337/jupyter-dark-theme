@@ -26,19 +26,19 @@ body, body.notebook_app.command_mode {
 
 .CodeMirror pre, .CodeMirror-dialog, .CodeMirror-dialog .CodeMirror-search-field, .terminal-app .terminal {
     font-family: "Bitstream Vera Sans Mono", Monaco, monospace;
-    font-size: 9pt;
+    font-size: 12pt;
 }
 .terminal-app .terminal { line-height: 1.3em; }
 div.output pre, div.output code, .rendered_html pre, .rendered_html code, div.completions select, div.container pre {
   font-family: "Bitstream Vera Sans Mono", Monaco, monospace;
 }
 div.output pre, div.output code, .rendered_html pre, .rendered_html p code, div.completions select, div.container pre {
-    font-size: 9pt;
+    font-size: 12pt;
 }
 
 div.prompt, div.tooltiptext pre {
     font-family: "Bitstream Vera Sans Mono", Monaco, monospace;
-    font-size: 8pt;
+    font-size: 11pt;
 }
 
 div.input_area {
@@ -51,6 +51,10 @@ div.input_area {
 @media not print { body { background-color: #eee; } }
 a { color: #CF4A4C; }
 a:hover, a:focus { color: #DE6F71; }
+
+
+/* container for making it bigg */
+.container { width:100% !important;}
 
 /* INTRO PAGE */
 
@@ -105,7 +109,7 @@ body[data-notebook-path] #header, .terminal-app #header { display: none !importa
 
 /* TERMINAL INTERFACE */
 .terminal-app #site { background: #272727; }
-.terminal-app .terminal { background: #141414 !important; }
+.terminal-app .terminal { background: #23272A !important; }
 
 /* NOTEBOOK AND EDITOR INTERFACE */
 
@@ -356,7 +360,7 @@ span.ansiyellow {color: #f9ee98;}
   Code editing
 */
 
-.CodeMirror {background: #141414; color: #F8F8F8;}
+.CodeMirror {background: #23272A; color: #F8F8F8;}
 div.CodeMirror-selected {background: rgba(221, 240, 255, 0.19) !important;}
 #texteditor-backdrop #texteditor-container .CodeMirror-gutter, .CodeMirror-gutters {background: #444; border-right: 0px; color: #777;}
 .CodeMirror-linenumber {color: #b4b7b4;}
@@ -383,7 +387,7 @@ div.CodeMirror-selected {background: rgba(221, 240, 255, 0.19) !important;}
 .CodeMirror span.cm-tag {color: #7587A6;}
 .CodeMirror span.cm-link {color: #A36AC7;}
 
-.CodeMirror .CodeMirror-matchingbracket { background-color: #dd3; color: #303030 !important;}
+.CodeMirror .CodeMirror-matchingbracket { background-color: white; text-decoration: underline #008080; color: #303030 !important;}
 
 /*
   Markdown editing
