@@ -171,7 +171,7 @@ span.save_widget span.filename:hover {
   color: #b7b7b7;
 }
 .ctb_global_show .ctb_show ~ div.text_cell_render {
-  border-color: #444;
+  border-color: #444; 
 }
 .celltoolbar select {
   opacity: 0.5;
@@ -337,10 +337,10 @@ div.output_html { font-family: sans-serif; }
   .notebook_app table.dataframe tr { border: 1px #979797; }
 
   .notebook_app .rendered_html pre, .notebook_app .rendered_html code {
-    border: 0;
-    background-color: #444;
-    color: #b0b0b0;
-    padding: 0;
+    border: 0px;
+    background-color: #adadad;
+    color: #1D1D1D;
+    padding: 2px;
   }
 }
 
