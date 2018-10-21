@@ -334,7 +334,7 @@ div.output_html { font-family: sans-serif; }
     color: #979797;
   }
   .notebook_app div.text_cell_render, .notebook_app div.output_html { color: #979797; }
-  .notebook_app table.dataframe tr { border: 1px #979797; }
+  .notebook_app table.dataframe tr { border: 1px #979797; background-color: #2C2F33; }
 
   .notebook_app .rendered_html pre, .notebook_app .rendered_html code {
     border: 0px;
